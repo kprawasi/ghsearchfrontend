@@ -24,8 +24,6 @@ const Frontend = () => {
         if (query) {
             fetchBestProject();
         }
-
-        fetchBestProject();
     }, [query]);
 
     const handleSubmit = (event) => {
